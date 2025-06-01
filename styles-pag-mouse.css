@@ -1,0 +1,1032 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+/* Header */
+.top-bar {
+background-color: #e0e0e0;
+padding: 10px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.top-logo {
+/* Pinky... */
+font-family: 'Jomhuria', cursive;
+font-family: 'Jomhuria';
+font-style: normal;
+margin: 0;
+font-size: 40px;
+letter-spacing: 0.02em;
+
+}
+/* pinkymou */
+
+
+.top-logo.purple a {
+color: #9b59b6; /* Mantén el color morado o el color original */
+}
+.nav-menu {
+display: flex;
+gap: 40px;
+}
+.nav-menu {
+display: flex;
+gap: 40px;
+justify-content: center; /* Añadido */
+flex: 2; /* Añadido */
+}
+.nav-menu a {
+text-decoration: none; /* Esto quita la línea debajo de los enlaces */
+color: #878C8E; /* Cambia el color del texto a gris */
+}
+.search-bar {
+width: 254px;
+color: rgba(135,140,142,1);
+height: 32px;
+background: rgba(217,217,217,0.05);
+border: 1px solid rgba(135,140,142,0.5);
+border-radius: 23px;
+display: flex;
+align-items: center;
+padding: 0 15px;
+margin: 0 20px; /* Añadido */
+flex: 1; /* Añadido */
+}
+
+.search-bar input {
+border: none;
+background: none;
+width: 100%;
+font-family: 'IBM Plex Sans Thai', sans-serif;
+font-size: 16px;
+color: rgba(135,140,142,1);
+}
+
+.top-message {
+font-size: 14px;
+color: #666;
+text-align: center;
+width: 100%;
+margin: 0 20px;
+}
+.top-Latino { 
+/* Latino... */
+font-size: 14px;
+color: #666;
+text-align:right;
+flex: 1;
+margin: 0 20px;
+}
+
+
+nav {
+background-color: #fff;
+padding: 10px 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+position: relative; /* Añadido */
+}
+.logo {
+flex: 1; /* Añadido */
+font-family: 'Jomhuria', cursive;
+}
+
+/* stop animacion de three.js */
+#stopButton {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #9216A8;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+z-index: 1000;
+display: none;
+}
+#stopButtonLogitech {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #9216A8;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+z-index: 1000;
+display: none;
+}
+#stopButtonAPPLE {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #9216A8;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+z-index: 1000;
+display: none;
+}
+#stopButtonAPPLE {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #9216A8;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+z-index: 1000;
+display: none;
+}
+#stopButtonONIKUMA {
+position: absolute;
+top: 20px;
+right: 20px;
+background-color: #9216A8;
+color: white;
+padding: 10px 20px;
+font-size: 16px;
+cursor: pointer;
+z-index: 1000;
+display: none;
+}
+/* titulo del producto en animacion*/
+
+#product_title_animacion_Logitech {
+position: absolute;
+bottom: 40px; /* Ajusta esta distancia según necesites */
+left: 50%;
+font-size: 25px;
+transform: translateX(-50%);
+z-index: 1000;
+display: none;
+color: white; /* o el color que prefieras */
+text-align: center;
+-webkit-user-select: none; /* Para navegadores WebKit (Chrome, Safari) */
+-moz-user-select: none;    /* Para Firefox */
+-ms-user-select: none;     /* Para IE/Edge */
+user-select: none; 
+}
+#product_title_animacion_APPLE {
+position: absolute;
+bottom: 40px; /* Ajusta esta distancia según necesites */
+left: 50%;
+font-size: 25px;
+transform: translateX(-50%);
+z-index: 1000;
+display: none;
+color: white; /* o el color que prefieras */
+text-align: center;
+-webkit-user-select: none; /* Para navegadores WebKit (Chrome, Safari) */
+-moz-user-select: none;    /* Para Firefox */
+-ms-user-select: none;     /* Para IE/Edge */
+user-select: none; 
+}
+#product_title_animacion_LUOM {
+position: absolute;
+bottom: 40px; /* Ajusta esta distancia según necesites */
+left: 50%;
+font-size: 25px;
+transform: translateX(-50%);
+z-index: 1000;
+display: none;
+color: white; /* o el color que prefieras */
+text-align: center;
+-webkit-user-select: none; /* Para navegadores WebKit (Chrome, Safari) */
+-moz-user-select: none;    /* Para Firefox */
+-ms-user-select: none;     /* Para IE/Edge */
+user-select: none; 
+}
+#product_title_animacion_ONIKUMA {
+position: absolute;
+bottom: 40px; /* Ajusta esta distancia según necesites */
+left: 50%;
+font-size: 25px;
+transform: translateX(-50%);
+z-index: 1000;
+display: none;
+color: white; /* o el color que prefieras */
+text-align: center;
+-webkit-user-select: none; /* Para navegadores WebKit (Chrome, Safari) */
+-moz-user-select: none;    /* Para Firefox */
+-ms-user-select: none;     /* Para IE/Edge */
+user-select: none; 
+}
+
+
+
+/* dark_mode */
+.dark-mode-btn {
+background-color: transparent;
+border: none;
+cursor: pointer;
+}
+
+.dark-mode-btn img {
+width: 32px;
+height: 32px;
+}
+
+/* Modo oscuro general */
+.dark-mode {
+background-color: #121212;
+color: white;
+}
+.dark_mode {
+margin-left: auto; /* Empuja el botón hacia la derecha */
+display: flex;
+align-items: center;
+}
+
+#darkModeToggle {
+background-color: transparent;
+border: none;
+cursor: pointer;
+margin-right: 20px; /* Ajusta la distancia con el carrito */
+}
+
+#darkModeToggle img {
+width: 32px;
+height: 32px;
+}
+.dark-mode .carrito-cart {
+background-color: #1e1e1e; /* Fondo negro para el carrito */
+border: 1px solid #ffffff; /* Borde blanco */
+}
+.top-logo a {
+color: inherit; /* Mantiene el color original del logo */
+font-family: 'Jomhuria', cursive;
+}
+
+/* Evitar que se cambie en el modo oscuro */
+.dark-mode .top-logo.purple a {
+color: #9b59b6; /* Mantén el color morado o el color original */
+font-family: 'Jomhuria', cursive;
+}
+
+.dark-mode header, 
+.dark-mode footer {
+background-color: #1e1e1e;
+color: white;
+}
+
+.dark-mode .product-card {
+background-color: #1e1e1e !important; /* Forzar el cambio a negro */
+border: 1px solid #ffffff; /* Borde blanco para contraste */
+color: white; /* Texto dentro del contenedor también debe cambiar */
+}
+/* inicio blackbox */
+.dark-mode .product {
+background-color: #1e1e1e;
+color: white;
+border: 1px solid #333;
+}
+
+.dark-mode .product-front,
+.dark-mode .product-back {
+background-color: #1e1e1e;
+color: white;
+border: 1px solid #333;
+border-color: #444;
+}
+/* Estilo normal para los encabezados de la tabla en modo claro */
+.product-back th {
+background-color: #f2f2f2; /* O el color que tengas actualmente */
+color: black; /* O el color de texto que prefieras */
+}
+
+/* Estilo para los encabezados de la tabla en modo oscuro */
+.dark-mode .product-back th {
+background-color: #250A2A;
+color: white; /* Cambia el color del texto a blanco para mejor contraste */
+}
+
+/* Transición suave para el cambio de modo */
+.product-back th {
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.dark-mode .product h2,
+.dark-mode .product h4,
+.dark-mode .product p {
+color: white;
+}
+.dark-mode .top-bar {
+background-color: #250A2A;
+}
+.top-bar, nav {
+transition: background-color 0.3s ease;
+}
+.dark-mode nav {
+background-color: #1e1e1e;
+border-bottom: 1px solid #333;
+}
+
+.dark-mode .top-logo,
+.dark-mode .top-message,
+.dark-mode .top-Latino {
+color: white;
+}
+/* Estilo base del botón */
+.view-3d-button {
+position: absolute;
+top: 10px;
+right: 10px;
+background-color: white;
+color: black;
+border: 1px solid black;  
+padding: 10px 15px;
+cursor: pointer;
+border-radius: 5px;
+z-index: 100;
+transition: background-color 0.3s, color 0.3s; /* Añade una transición suave */
+}
+
+/* Hover en modo claro */
+.view-3d-button:hover {
+background-color: #000000;
+color: white;
+}
+
+/* Estilo del botón en modo oscuro */
+.dark-mode .view-3d-button {
+background-color: #000000;
+color: white;
+border: 1px solid white;
+}
+
+/* Hover en modo oscuro (animación invertida) */
+.dark-mode .view-3d-button:hover {
+background-color: white;
+color: black;
+}
+/* Estilos para el modo oscuro */
+.dark-mode .carrito-cart {
+background-color: #333;
+color: #fff;
+}
+
+.dark-mode .cart-dropdown {
+background-color: #444;
+border: 1px solid #666;
+color: #fff;
+}
+
+.dark-mode #carrito-icon {
+filter: invert(1);
+}
+.dark-mode input[type="email"] {
+background-color: #333;
+color: #fff;
+border: 1px solid #555;
+}
+
+.dark-mode input[type="email"]::placeholder {
+color: #aaa;
+}
+/* fin blackbox */
+
+.dark-mode .product-title,
+.dark-mode .product-info p,
+.dark-mode .price {
+color: white;
+}
+
+.dark-mode .cart-count, 
+.dark-mode .top-message, 
+.dark-mode .top-logo a {
+color: white;
+}
+
+
+/* Cart styles */
+.carrito-cart {
+position: relative;
+display: flex;
+align-items: center;
+gap: 10px;
+}
+
+.carrito-cart img {
+width: 24px;
+height: 24px;
+}
+
+.cart-count {
+position: absolute;
+top: -10px;
+right: -10px;
+background-color: red;
+color: #fff;
+border-radius: 50%;
+padding: 2px 6px;
+font-size: 12px;
+}
+
+.cart-dropdown {
+position: absolute;
+top: 40px;
+right: 0;
+background-color: #fff;
+width: 200px;
+border: 1px solid #ccc;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+display: none;
+z-index: 1000;
+}
+
+.cart-dropdown ul {
+list-style: none;
+padding: 10px;
+margin: 0;
+}
+
+.cart-dropdown p {
+padding: 10px;
+border-top: 1px solid #ccc;
+text-align: center;
+}
+/*img_publicidad_mouse */ 
+#img_publicidad_mouse {
+position: center;
+width: 100%;
+height: auto; /* Mantiene la proporción de la imagen */
+display: block;
+margin: 0 auto; /* Centra la imagen si es necesario */
+}
+
+/*seccion productos */ 
+/*view-3d-button */
+/* Botón para ver el objeto 3D */
+.view-3d-button {
+position: absolute;
+top: 10px; /* Ajusta la posición */
+right: 10px; /* Ajusta la posición */
+background-color: white; /* Color de fondo del botón */
+color: dark; /* Color de texto */
+border: 1px solid black;  
+padding: 10px 15px; /* Tamaño del botón */
+cursor: pointer; /* Cambia el cursor al pasar por el botón */
+border-radius: 5px; /* Bordes redondeados */
+z-index: 100; /* Asegura que esté por encima del contenido */
+}
+
+.view-3d-button:hover {
+background-color: #000000; /* Cambia el color al pasar el mouse */
+color: white; /* Color de texto */
+}
+.category-title {
+text-align: center;
+font-family: 'Poppins', sans-serif;
+font-size: 36px;
+margin-bottom: 30px;
+}
+/* Estilos para la sección de productos */
+.products {
+display: flex;
+justify-content: space-between; /* Distribuir equitativamente los productos */
+flex-wrap: wrap; /* Permite que los productos se ajusten si es necesario */
+gap: 20px; /* Espacio entre los productos */
+margin: 20px 0;
+padding: 0 50px;
+}
+
+/* Estilos generales para cada tarjeta de producto */
+.product {
+background-color: #4a2155;
+padding: 20px;
+text-align: center;
+width: calc(20% - 20px); /* Ancho calculado para 5 productos por fila con un espacio de 20px */
+box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+perspective: 1000px;
+position: relative;
+margin: 20px auto;
+/* Definir una altura mínima para asegurar consistencia */
+min-height: 450px; /* Ajusta según sea necesario */
+height: auto; /* Permite que la tarjeta crezca dinámicamente según el contenido */
+flex-flow: row wrap; 
+border-radius: 12px; /* Bordes redondeados */
+}
+
+/* Estilos compartidos para el frente y la parte trasera de la tarjeta del producto */
+.product-front, .product-back {
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+backface-visibility: hidden;
+transition: transform 0.8s;
+border: 1px solid #ddd;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+background-color: white;
+}
+
+/* Estilos específicos para el frente de la tarjeta */
+.product-front {
+transform: rotateY(0deg); /* Estado inicial sin rotación */
+}
+
+/* Estilos específicos para la parte trasera de la tarjeta */
+.product-back {
+transform: rotateY(180deg); /* Estado inicial, parte trasera oculta */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+/* Estilos para cuando la tarjeta está "volteada" */
+.product.flipped .product-front {
+transform: rotateY(-180deg); /* Voltear el frente */
+}
+
+.product.flipped .product-back {
+transform: rotateY(0deg); /* Mostrar la parte trasera */
+}
+
+/* Estilos para los colores del producto */
+/* Ocultar el input de tipo radio */
+.color-input {
+display: none;
+}
+
+/* Círculos de color */
+.color-circle {
+display: inline-block;
+width: 20px;
+height: 20px;
+border-radius: 50%;
+cursor: pointer;
+}
+
+/* Definir colores específicos para los círculos */
+.color-gray { background-color: gray; }
+.color-black { background-color: black; }
+.color-rose { background-color: pink; }
+
+/* Agregar un borde al círculo seleccionado */
+.color-input:checked + .color-circle {
+border: 2px solid blue; /* Ajusta el color del borde si lo deseas */
+}
+
+
+/* Estilos para la sección de botones */
+.buttons {
+display: flex; /* Utiliza flexbox para alinear los botones en una fila */
+justify-content: center; /* Centra los botones horizontalmente */
+gap: 10px; /* Espacio entre los botones */
+margin-top: 20px; /* Margen superior de 20px */
+}
+
+/* Estilos generales para los botones */
+button {
+padding: 10px 15px; /* Relleno interno para los botones */
+cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+border-radius: 5px; /* Bordes redondeados para los botones */
+font-size: 1em; /* Tamaño de fuente estándar */
+transition: background-color 0.3s ease; /* Transición suave al cambiar el color de fondo */
+}
+
+/* Botón para agregar al carrito */
+.add-to-cart {
+background-color: white; /* Color de fondo para el botón de agregar al carrito */
+color: white; /* Color de texto */
+border: 1px solid black; /* Borde negro */
+
+}
+/* Estilos para los botones de detalles y regresar */
+.details-button, .back-button {
+background-color: black; /* Fondo negro */
+border: 1px solid black; /* Borde negro */
+color: white; /* Color de texto blanco */
+}
+
+.details-button:hover, .back-button:hover {
+background-color: #8928d8; /* Cambia el color de fondo al pasar el mouse */
+color: white; /* Asegura que el texto siga siendo blanco en hover */
+}
+
+/* Estilo para el botón Details */
+.details-button:hover, .back-button:hover {
+background-color: #8928d8; /* Cambia el color de fondo al pasar el mouse */
+}
+
+/* Estilo para el botón de agregar al carrito en modo hover */
+.add-to-cart:hover {
+background-color: C037D7; /* Color de fondo blanco en hover */
+color: black; /* Cambia el color de texto a negro en hover */
+border: 1px solid black; /* Agrega un borde negro en hover */
+}
+
+
+/* Estilos para la tabla de detalles */
+table {
+width: 90%;
+border-collapse: collapse;
+font-family: Arial, sans-serif;
+margin-bottom: 10px;
+}
+
+/* Estilos para celdas de la tabla */
+th, td {
+border: 1px solid #ddd;
+padding: 8px;
+text-align: left;
+}
+
+/* Encabezado de la tabla */
+th {
+background-color: #f2f2f2;
+font-weight: bold;
+}
+
+/* Estilos de imagen dentro del producto */
+.product img {
+width: 200px;
+height: auto;
+max-width: 100%; /* Asegura que la imagen no exceda el contenedor */
+}
+
+/*seccion footer */ 
+footer {
+background-color: #f8f8f8;
+padding: 20px 0;
+font-family: Arial, sans-serif;
+color: #333;
+}
+
+.newsletter {
+text-align: center;
+margin-bottom: 20px;
+}
+
+.newsletter-subscribe {
+margin: 10px 0;
+}
+
+.newsletter-subscribe input[type="email"] {
+padding: 10px;
+width: 300px;
+max-width: 100%;
+border: 1px solid #ccc;
+border-radius: 5px;
+margin-right: 10px;
+}
+
+.newsletter-subscribe button {
+padding: 10px 20px;
+background-color: #00aaff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.newsletter-subscribe button:hover {
+background-color: #0088cc;
+}
+
+.legal-text {
+font-size: 12px;
+color: #777;
+}
+
+.footer-links {
+display: flex;
+justify-content: space-around;
+padding: 20px 0;
+border-top: 1px solid #ddd;
+border-bottom: 1px solid #ddd;
+}
+
+.footer-column {
+flex: 1;
+max-width: 200px;
+}
+
+.footer-column h4 {
+font-size: 16px;
+margin-bottom: 10px;
+}
+
+.footer-column ul {
+list-style-type: none;
+padding: 0;
+}
+
+.footer-column ul li {
+margin-bottom: 5px;
+}
+
+.footer-column ul li a {
+text-decoration: none;
+color: #333;
+}
+
+.footer-column ul li a:hover {
+text-decoration: underline;
+}
+
+.footer-bottom {
+text-align: center;
+margin-top: 20px;
+font-size: 12px;
+color: #777;
+}
+body { margin: 0; }
+canvas { display: block; }
+
+/* Slider de banners */
+.wrapper-banner {
+    width: 100vw; 
+    margin: 0; 
+    padding: 0; 
+  }
+  .slider-banner {
+    position: relative;
+    width: 100vw; 
+    background-color: black; 
+  }
+    
+    .slider-banner .slides {
+      position: relative;
+      display: flex;
+      overflow: hidden;
+    }
+    
+    .slider-banner .slide {
+      width: 100vw;
+      flex-shrink: 0;
+      animation-name: slide;
+      animation-duration: 15s;
+      animation-iteration-count: infinite;
+      animation-timing-function: ease-in-out;
+    }
+    
+    .slider-banner:hover .slide {
+      animation-play-state: paused;
+    }
+    
+    .slider-banner .slide img {
+      width: 100%;
+      vertical-align: top;
+    }
+    
+    .slider-banner .slider-controler {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      text-align: center;
+      padding: 5px;
+      background-color: rgba(0, 0, 0, 0.5); 
+    }
+    
+    .slider-banner .slider-controler li {
+      margin: 0 0.5rem;
+      display: inline-block;
+    }
+    
+    .slider-banner .slider-controler a {
+      text-decoration: none;
+      color: white;
+      font-size: 1.5rem;
+    }
+    
+    @keyframes slide {
+      0% { transform: translateX(0); }
+      20% { transform: translateX(0); }
+      25% { transform: translateX(-100%); }
+      45% { transform: translateX(-100%); }
+      50% { transform: translateX(-200%); }
+      70% { transform: translateX(-200%); }
+      75% { transform: translateX(-300%); }
+      95% { transform: translateX(-300%); }
+      100% { transform: translateX(-400%); }
+    }
+  
+/*seccion 2 del home- Categorias */ 
+.home2 {
+    padding: 50px;
+    background-color: #fff;
+}
+.category-title {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #000000;
+}
+/* Contenedor de todas las categorías */
+.product-category {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; /* Espacio entre las tarjetas */
+    width: 100%;
+}
+
+/* Estilos para cada contenedor de producto */
+.product-item {
+    position: relative;
+    width: 100%; /* Ancho completo del contenedor principal */
+    height: 250px; /* Aumenta la altura para un tamaño mayor */
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #333; /* Color de fondo */
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 0; /* Margen entre las tarjetas */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Ajusta las imágenes dentro de cada contenedor */
+.product-item .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor */
+    bottom: -100%; /* Oculta la imagen inicialmente para el efecto hover */
+    transition: bottom 0.5s ease-in-out;
+    z-index: 1;
+}
+
+/* Efecto hover para que la imagen suba */
+.product-item:hover .imagen {
+    bottom: 0;
+}
+
+/* Texto sobre la imagen */
+.product-item .texto {
+    position: relative;
+    z-index: 2;
+    opacity: 0.8;
+}
+
+/* Contenedor principal */
+#MOUSES_CONTEINER {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('archivos/imagenes/Group 70.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* Imagen dentro del contenedor */
+#MOUSES_CONTEINER .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: -100%;  /* Oculta la imagen inicialmente */
+    transition: bottom 0.5s ease-in-out;
+    z-index: 1;
+}
+/* Efecto hover para que la imagen suba */
+#MOUSES_CONTEINER:hover .imagen {
+    bottom: 0;
+}
+/* Texto sobre la imagen */
+#MOUSES_CONTEINER .texto {
+    position: relative;
+    z-index: 2;
+    opacity: 0.8;
+}
+/* --------------------------------------------- */
+/* Contenedor principal */
+#AUDIFONOS_CONTEINER {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('archivos/imagenes/Group 74.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: white; 
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* Imagen dentro del contenedor */
+#AUDIFONOS_CONTEINER .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: -100%;  /* Oculta la imagen inicialmente */
+    transition: bottom 0.5s ease-in-out;
+    z-index: 1;
+}
+/* Efecto hover para que la imagen suba */
+#AUDIFONOS_CONTEINER:hover .imagen {
+    bottom: 0;
+}
+/* Texto sobre la imagen */
+#AUDIFONOS_CONTEINER .texto {
+    position: relative;
+    z-index: 2;
+    opacity: 0.8;
+}
+/* --------------------------------------------- */
+/* Contenedor principal */
+#SMART_WATCHEs_CONTEINER {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('archivos/imagenes/fondo categoria relojes.webp'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* Imagen dentro del contenedor */
+#SMART_WATCHEs_CONTEINER .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: -100%;  /* Oculta la imagen inicialmente */
+    transition: bottom 0.5s ease-in-out;
+    z-index: 1;
+}
+/* Efecto hover para que la imagen suba */
+#SMART_WATCHEs_CONTEINER:hover .imagen {
+    bottom: 0;
+}
+/* Texto sobre la imagen */
+#SMART_WATCHEs_CONTEINER .texto {
+    position: relative;
+    z-index: 2;
+    opacity: 0.8;
+}
+/* --------------------------------------------- */
+/* Contenedor principal */
+#PORTÁTILES_CONTEINER {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('archivos/imagenes/fondo categoria portatiles.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+/* Imagen dentro del contenedor */
+#PORTÁTILES_CONTEINER .imagen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    bottom: -100%;  
+    transition: bottom 0.5s ease-in-out;
+    z-index: 1;
+}
+/* Efecto hover para que la imagen suba */
+#PORTÁTILES_CONTEINER:hover .imagen {
+    bottom: 0;
+}
+/* Texto sobre la imagen */
+#PORTÁTILES_CONTEINER .texto {
+    position: relative;
+    z-index: 2;
+    opacity: 0.8;
+}
